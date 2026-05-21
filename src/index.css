@@ -38,5 +38,5 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 html {
-  font-size: 1.15rem; /* This bumps up all font definitions globally by 15% */
+  font-size: 1.25rem; /* This bumps up all font definitions globally by 15% */
 }
