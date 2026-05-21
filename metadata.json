@@ -1,5 +1,5 @@
 {
-  "name": "LendingClub Credit Scoring Sandbox",
+  "name": "Credit Risk Model",
   "description": "Interactive Probability of Default (PD) modeling playground with WoE Binning, Logistic Regression Scorecards, Decision Trees, XGBoost, and an AI Technical Interview Coach.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
