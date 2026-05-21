@@ -2,7 +2,7 @@
 
 An interactive, regulatory-compliant (IFRS 9) credit risk underwriting dashboard and Probability of Default (PD) simulation engine. This application allows users to execute macro stress-testing scenarios, explore features using Weights of Evidence (WoE), and interact with real-time financial models.
 
-Link to run the live application: [Launch Credit Risk Engine Model](https://netlify.app)
+Link to run the live application: [Launch Credit Risk Engine Model](https://fancy-jelly-d34d67.netlify.app/)
 
 
 ---
