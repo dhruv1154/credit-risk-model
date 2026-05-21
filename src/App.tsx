@@ -12,11 +12,11 @@ export default function App() {
   const [currency, setCurrency] = useState<'INR' | 'USD' | 'EUR'>('INR');
 
   return (
-    <div className="min-h-screen bg-[#E4E3E0] text-[#141414] flex flex-col font-sans selection:bg-[#141414] selection:text-white">
+    <div className="min-h-screen bg-[#E4E3E0] text-[#141414] flex flex-col font-sans selection:bg-[#141414] selection:text-white text-base md:text-[17px]">
       
       {/* Visual Top Navigation bar */}
       <header className="border-b border-[#141414] px-6 py-5 bg-[#E4E3E0] sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div className="max-w-[80%] mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4">
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span className="text-[10px] bg-[#141414] text-[#E4E3E0] font-mono px-1.5 py-0.5 rounded-xs tracking-widest uppercase">PD-XGB-2026</span>
@@ -82,7 +82,7 @@ export default function App() {
       </header>
 
       {/* Main body Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-6 py-6 space-y-6">
+      <main className="flex-1 max-w-[80%] w-full mx-auto px-6 py-6 space-y-6">
         
         {/* Global executive baseline cards */}
         <MetricCards currency={currency} />
