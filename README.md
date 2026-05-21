@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# LendingClub Credit Risk Underwriting Engine (v4.2)
 
-# Run and deploy your AI Studio app
+An interactive, regulatory-compliant (IFRS 9) credit risk underwriting dashboard and Probability of Default (PD) simulation engine. This application allows users to execute macro stress-testing scenarios, explore features using Weights of Evidence (WoE), and interact with real-time financial models.
 
-This contains everything you need to run your app locally.
+Link to live project: [View Live Production App](https://netlify.app)
 
-View your app in AI Studio: https://ai.studio/apps/58a59597-a37b-40dd-a346-cebeb7f753c5
+---
 
-## Run Locally
+## Key Features
+* **Interactive Underwriting Sandbox:** Dynamically test credit scenarios with adjustable parameters like income, loan size, and credit grades.
+* **Macro Stress-Testing Simulator:** Evaluate portfolio resilience against baseline states, recession shocks, and inflation liquidity strains.
+* **Multicurrency Support:** Toggle instantly between INR (₹), USD ($), and EUR (€) formatting.
+* **Feature Exploration:** In-depth visual breakdowns of Weight of Evidence (WoE) and Information Value (IV) metrics.
+* **Compliance Coach:** Built-in section for domain-specific tracking and AI guidance.
 
-**Prerequisites:**  Node.js
+---
 
+## Tech Stack
+* **Frontend:** React 19, Vite, TypeScript
+* **Styling:** Tailwind CSS v3, Motion (Framer Motion)
+* **Charts and Data Visuals:** Recharts
+* **Icons:** Lucide React
+* **Backend Utilities:** Express, Dotenv, Esbuild, Google GenAI
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## How to Run Locally
+
+### 1. Prerequisites
+Ensure you have Node.js installed on your system.
+
+### 2. Installation
+Clone the repository and install the project dependencies:
+```bash
+npm install
+```
+
+### 3. Environment Setup
+Create a `.env` or `.env.local` file in the root directory and insert your Google Gemini API key:
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+### 4. Start Development Server
+```bash
+npm run dev
+```
