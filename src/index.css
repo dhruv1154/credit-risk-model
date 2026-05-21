@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@300;400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-sans: 'Times New Roman', Times, serif;
+  --font-serif: 'Times New Roman', Times, serif;
+  --font-mono: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #E4E3E0;
+  color: #141414;
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+/* Custom technical slider style overrides */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #141414;
+  height: 4px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #141414;
+  border: 1px solid #E4E3E0;
+  cursor: pointer;
+}
+
